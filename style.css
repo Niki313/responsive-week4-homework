@@ -31,14 +31,11 @@ body {
 }
 
 .logo {
-  align-items: left;
   width: 150px;
 }
 
 .link-menu-block {
-  position: absolute;
-  top: 51px;
-  left: 960px;
+  text-align: right;
 }
 .link-menu {
   text-decoration: none;
