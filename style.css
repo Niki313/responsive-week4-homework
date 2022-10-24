@@ -13,29 +13,27 @@ body {
   padding: 0 0;
 }
 
-.wrapper,  .about-wrapper{
-  text-align: center;
+.wrapper,
+.about-wrapper {
   padding: 51px 67px;
 }
 
 .wrapper {
+  width: 100%;
   background-color: var(--third-color);
   height: 900px;
-  margin: 0 0 127px 0;
+  margin-bottom: 127px;
 }
-.about-wrapper{
+.about-wrapper {
   background-color: var(--fourth-color);
   height: auto;
-  margin: 0 0 110px 0;
+  margin-bottom: 110px;
 }
 
 .logo {
-  position: absolute;
-  top: 40px;
-  left: 165px;
+  align-items: left;
+  width: 150px;
 }
-
-/* top menu navigation_START */
 
 .link-menu-block {
   position: absolute;
@@ -54,12 +52,10 @@ body {
 .link-menu:hover {
   color: var(--second-color);
 }
-/* top menu navigation_END */
 
-
-/* First part of "homepage"_START */
 .greeting-text {
   margin-top: 211px;
+  text-align: center;
 }
 
 .name {
@@ -89,7 +85,6 @@ p {
   margin: 0 auto;
   line-height: 36px;
 }
-        /* button "contact me"_START */
 .button-contact-me {
   display: inline;
   background-color: var(--second-color);
@@ -109,11 +104,6 @@ p {
 .button-contact-me:hover {
   color: var(--first-color);
 }
-        /* button "contact me"_END */
-/* First part of "homepage"_END */
-
-
-/* Second part of "homepage" and part of "About"_START */
 .second-wrapper {
   padding: 0 0;
   margin: 0 67px;
@@ -122,10 +112,11 @@ p {
   text-align: center;
   margin-bottom: 82px;
 }
-      /* Page of "About" and page of "Contact"*/
 .headerDictionary,
 .headerWeather,
-.headerYogurt, .about-greeting, .get-touch {
+.headerYogurt,
+.about-greeting,
+.get-touch {
   font-family: var(--fontfamily-second);
   font-size: 64px;
   font-weight: 700;
@@ -138,21 +129,20 @@ p {
   margin-top: 95px;
   margin-bottom: 55px;
 }
-      /* Page of "About" */
-.about-greeting{
+.about-greeting {
   margin-top: 10px;
   margin-bottom: 29px;
 }
-      /* Page of "Contact" */
-.get-touch{
+.get-touch {
   margin-top: 10px;
   margin-bottom: 235px;
 }
 
-/* Page of "About" */
 .content-yogurt,
 .content-dictionary,
-.content-weather, .about-developer, .about-content-developer{
+.content-weather,
+.about-developer,
+.about-content-developer {
   margin: 10px 0;
   font-family: var(--fontfamily-first);
   font-size: 16px;
@@ -166,24 +156,18 @@ p {
 .content-weather {
   margin-bottom: 68px;
 }
-      /* Page of "About" */
-.about-content-developer{
+.about-content-developer {
   margin-bottom: 66px;
 }
-      /* Page of "About" */
-.about-developer{
+.about-developer {
   font-weight: bold;
   margin-bottom: 28px;
 }
-      /* Page of "About" */
-.about-photo-developer{
+.about-photo-developer {
   height: 460px;
   padding: 0 0;
   margin-bottom: 100px;
 }
-
-/* buttons "Weather", "Yoga", "Yogurt", 
-"View detail project" on Homepage and page "About" */
 
 .contact-link {
   background-color: var(--fourth-color);
@@ -200,21 +184,19 @@ p {
   background-color: var(--second-color);
   color: var(--fourth-color);
 }
-/* on Homepage and pages "About" and "Work"*/
 .img-fluid {
   margin-bottom: 70px;
 }
 
-.my-work .img-fluid{
+.my-work .img-fluid {
   margin-bottom: 16px;
 }
-      /* on page "Work"*/
-#last-row{
+#last-row {
   padding: 0 0;
   margin-bottom: 200px;
 }
 
-.first-image-caption{
+.first-image-caption {
   font-family: var(--fontfamily-first);
   color: var(--fifth-color);
   font-weight: 700;
@@ -224,7 +206,7 @@ p {
   margin-bottom: 9px;
 }
 
-.second-image-caption{
+.second-image-caption {
   font-family: var(--fontfamily-first);
   color: var(--first-color);
   font-weight: 400;
@@ -234,9 +216,6 @@ p {
   margin-bottom: 40px;
 }
 
-/* Second part of "homepage" and part of "About"_END */
-
-/* third part of Homepage, part of pages "About", "Work", "Contact"*/
 .third-wrapper {
   padding: 0 0;
   margin: 0 79px;
@@ -270,7 +249,6 @@ p {
   text-align: right;
 }
 
-          /* button "Let's talk here"_START */
 .email-link {
   display: inline;
   background-color: var(--second-color);
@@ -290,8 +268,6 @@ p {
   color: var(--first-color);
 }
 
-          /* button "Let's talk here"_END */
-
 .my-email {
   font-family: var(--fontfamily-first);
   font-size: 24px;
@@ -302,7 +278,7 @@ p {
   margin-top: 81px;
   margin-bottom: 41px;
 }
-/* social media icons */
+
 .social-media-icons {
   display: flex;
   flex-direction: row;
@@ -334,6 +310,3 @@ p {
 .instagram:hover {
   border: 1px solid var(--second-color);
 }
-
-
-
