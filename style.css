@@ -149,12 +149,7 @@ p {
   margin-bottom: 235px;
 }
 
-.content-yogurt,
-.content-dictionary,
-.content-weather {
-  margin-bottom: 68px;
-}
-      /* Page of "About" */
+/* Page of "About" */
 .content-yogurt,
 .content-dictionary,
 .content-weather, .about-developer, .about-content-developer{
@@ -164,6 +159,12 @@ p {
   font-weight: 400;
   line-height: 30px;
   color: var(--first-color);
+}
+
+.content-yogurt,
+.content-dictionary,
+.content-weather {
+  margin-bottom: 68px;
 }
       /* Page of "About" */
 .about-content-developer{
