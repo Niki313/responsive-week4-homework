@@ -30,6 +30,17 @@
   .email-link a {
     font-size: 16px;
   }
+
+
+  .block-work-inquiry {
+    padding: 20px 80px;
+  }
+  
+  .work-inquiry {
+    font-size: 37px;
+  }
+
+
 }
 /* for sm-screen*/
 @media (min-width: 576px) {
@@ -391,7 +402,6 @@ p {
   font-family: var(--fontfamily-second);
   font-size: 48px;
   font-weight: 700;
-  line-height: 64px;
   color: var(--fifth-color);
   padding-bottom: 4px;
 }
