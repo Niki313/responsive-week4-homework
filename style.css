@@ -10,7 +10,7 @@
 /* for md-screen*/
 @media (min-width: 768px) {
   .second-wrapper {
-    margin: 0 20px 100px 20px;
+    margin: 0 20px 150px 20px;
   }
   .third-wrapper {
     margin: 0px 30px 50px 30px;
@@ -90,7 +90,7 @@
 .button-contact-me {
   padding: 15px 20px;
 }
-*/ .button-contact-me a {
+ .button-contact-me a {
   font-size: 14px;
 }
 .second-wrapper {
@@ -162,7 +162,7 @@
   font-size: 16px;
   margin-top: 30px;
   margin-bottom: 20px;
-} */
+} */ */
 
 /* ДЛЯ БОЛЬШИХ ЭКРАНОВ */
 
