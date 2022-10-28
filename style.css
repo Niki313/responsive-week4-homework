@@ -47,10 +47,11 @@
   .second-wrapper {
     margin-bottom: 50px;
   }
+  .logo {
+    align-items: center;
+  }
   .link-menu-block {
-    display: inline;
-    text-align: right;
-    margin-left: 150px;
+    text-align: center;
   }
   .link-menu {
     margin: 0 10px;
