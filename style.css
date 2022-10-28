@@ -16,9 +16,7 @@
     margin: 0px 30px 50px 30px;
   }
   .link-menu-block {
-    display: inline;
-    text-align: right;
-    margin-left: 350px;
+    margin-left: 100px;
   }
   .link-menu {
     margin: 0 10px;
@@ -52,7 +50,7 @@
   .link-menu-block {
     display: inline;
     text-align: right;
-    margin-left: 350px;
+    margin-left: 50px;
   }
   .link-menu {
     margin: 0 10px;
