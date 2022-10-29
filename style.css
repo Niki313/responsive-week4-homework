@@ -8,7 +8,7 @@
   --fontfamily-second: "Playfair Display", serif;
 }
 /* for md-screen*/
-@media (min-width: 768px) {
+@media (max-width: 900px){
   .second-wrapper {
     margin: 0 20px;
   }
@@ -42,7 +42,42 @@
   }
 
 }
+/* @media (min-width: 768px) { 
+  .second-wrapper {
+    margin: 0 20px;
+  }
+  .third-wrapper {
+    margin: 0px 30px 50px 30px;
+  }
+  .link-menu-block {
+    margin-left: 200px;
+  }
+  .link-menu {
+    margin: 0 10px;
+  }
+  .greeting-text {
+    margin-top: 100px;
+  }
+
+  .email-link a {
+    font-size: 16px;
+  }
+
+
+  .block-work-inquiry {
+    padding: 20px 80px;
+  }
+  
+  .work-inquiry {
+    font-size: 37px;
+  }
+  .work-inquiry-content {
+    font-size: 16px;
+  }
+
+}*/
 /* for sm-screen*/
+/*
 @media (min-width: 576px) {
   .second-wrapper {
     margin-bottom: 50px;
@@ -65,7 +100,7 @@
   }
 }
 
-
+*/
 
 /* for a big screen */
 
