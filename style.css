@@ -9,12 +9,15 @@
 }
 /* from 767px screen and more*/
 @media (max-width:767px){
+  body{
+    text-align: center;
+  }
   .second-wrapper {
     margin-bottom: 50px;
   }
-  .logo {
+  /* .logo {
     align-items: center;
-  }
+  } */
   .link-menu-block {
     text-align: center;
   }
