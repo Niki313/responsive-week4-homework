@@ -516,8 +516,6 @@ margin-bottom: 50px;
  
   .link-menu {
     margin: 0 5px;
-    font-size: 14px;
-    line-height: 16px;
   }
   .greeting-text {
     margin-top: 50px;
@@ -713,5 +711,12 @@ margin-bottom: 30px;
     margin-bottom: 100px;
   }
   
+  
+  .link-menu-block {
+    margin-left:  250px ;
+    display: inline;
+    text-align: right;
+}
+
 }
 
