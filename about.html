@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>About Nataliia Dorosh - Front-end developer, based in Europe</title>
     <meta name="description"  content="✔ Long-term cooperation, contract, guarantee.
@@ -40,12 +39,13 @@
     ></script>
 
     <script src="https://kit.fontawesome.com/0345ce63ac.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
       <div class="about-wrapper">
-        <div>
-          <a href="index.html" title="link Homepage">
-             <img src="img/logo.png" alt="logo" width="150px" class="logo" />
+        <div class="header">
+          <a href="index.html" title="link Homepage" id="logo">
+            <img src="img/logo.png" alt="logo"  class="logo" />
           </a>
           <div class="link-menu-block">
             <a href="index.html" title="link Homepage" class="col-2 link-menu">Home </a>
@@ -53,36 +53,35 @@
             <a href="work.html" title="link Work" class="col-2 link-menu">Work </a>
             <a href="contact.html" title="link Contact" class="col-2 link-menu">Contact</a>
           </div>
-        </div>
       </div>
-      <div class="second-wrapper">
-           <div class="row">
-          
-          <div class="col-6">
-            <p class="about-greeting">Hi, I'm Nataliia Dorosh</p>
-            <p class="about-developer">Front-end Developer, based in Europe</p>
-            <p class="about-content-developer text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated they
-              live in Bookmarksgrove right at the coast of the Semantics, a large
-              language ocean. A small river named Duden flows by
-            </p>
-            <div class="navigation-links-second">
-              <a
-              href="work.html"
-                class="contact-link"
-                title="link view detail project"
-                >View detail project</a
-              >
-            </div>
-          </div>
-          <div class="about-photo-developer col-6 d-none d-lg-block">
-            <img
-              src="https://cdn.create.vista.com/api/media/medium/195230158/stock-photo-toned-picture-silhouette-hacker-hoodie?token="
-              alt="image programmer"
-              class="img-fluid rounded"
-            />
-          </div>
+      </div>
+      <div class="second-wrapper" id="about-second-wrapper">
+            <div class="row">
+                <div class="col-6" id="about-text">
+                    <p class="about-greeting">Hi, I'm Nataliia Dorosh</p>
+                    <p class="about-developer">Front-end Developer, based in Europe</p>
+                    <p class="about-content-developer text-muted">
+                      Far far away, behind the word mountains, far from the countries
+                      Vokalia and Consonantia, there live the blind texts. Separated they
+                      live in Bookmarksgrove right at the coast of the Semantics, a large
+                      language ocean. A small river named Duden flows by
+                    </p>
+                  <div class="navigation-links-second">
+                      <a
+                      href="work.html"
+                        class="contact-link"
+                        title="link view detail project"
+                        >View detail project</a
+                      >
+                  </div>
+              </div>
+              <div class="about-photo-developer col-6 d-none d-lg-block">
+                <img
+                  src="https://cdn.create.vista.com/api/media/medium/195230158/stock-photo-toned-picture-silhouette-hacker-hoodie?token="
+                  alt="image programmer"
+                  class="img-fluid rounded"
+                />
+              </div>
         </div>
       </div>
       <div class="third-wrapper">

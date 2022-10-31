@@ -39,21 +39,21 @@
       ></script>
       
       <script src="https://kit.fontawesome.com/0345ce63ac.js" crossorigin="anonymous"></script>
-      
+
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
       <div class="wrapper">
-        <div>
-          <a href="index.html" title="link Homepage">
-             <img src="img/logo.png" alt="logo"  class="logo" />
-          </a>
-          <div class="link-menu-block">
-            <a href="index.html" title="link Homepage" class="col-2 link-menu">Home </a>
-            <a href="about.html" title="link About" class="col-2 link-menu">About </a>
-            <a href="work.html" title="link Work" class="col-2 link-menu">Work </a>
-            <a href="contact.html" title="link Contact" class="col-2 link-menu">Contact</a>
-          </div>
+        <div class="header">
+            <a href="index.html" title="link Homepage" id="logo">
+              <img src="img/logo.png" alt="logo"  class="logo" />
+            </a>
+            <div class="link-menu-block">
+              <a href="index.html" title="link Homepage" class="col-2 link-menu">Home </a>
+              <a href="about.html" title="link About" class="col-2 link-menu">About </a>
+              <a href="work.html" title="link Work" class="col-2 link-menu">Work </a>
+              <a href="contact.html" title="link Contact" class="col-2 link-menu">Contact</a>
+            </div>
         </div>
         <div class="greeting-text">
           <p class="greeting">Hi, I am</p>
@@ -66,14 +66,12 @@
           </div>
         </div>
       </div>
-      <div class="second-wrapper">
-        <div>
+      <div class="second-wrapper" >
           <div class="text-second-part">
             Featured Project which my best projects be choice to show
           </div>
-        </div>
 
-        <div class="row">
+        <div class="row" id="homepage-row-yogurt">
           <div class="screenshotYogurt col-6 d-none d-lg-block">
             <img
               src="https://31ukq.codesandbox.io/images/yogurt.png"
@@ -89,20 +87,15 @@
               live in Bookmarksgrove right at the coast of the Semantics, a large
               language ocean. A small river named Duden flows by
             </p>
+            
             <div class="navigation-links-second">
-              <a
-              href="work.html"
-                class="contact-link"
-                title="link view detail project"
-                >View detail project</a
-              >
+              <a href="work.html"  title="link view detail project" class="contact-link" >View detail project</a>
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-6">
-            <div class="textWeather">
+        <div class="row" id="homepage-row-weather">
+          <div class="textWeather col-6">
               <p class="headerWeather">
                 Weather app
               </p>
@@ -120,7 +113,6 @@
                   >View detail project</a
                 >
               </div>
-            </div>
           </div>
           <div class="screenshotWeather col-6 d-none d-lg-block">
             <img
@@ -131,7 +123,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="homepage-row-dictionary">
           <div class="screenshotDictionary col-6 d-none d-lg-block">
             <img
               src="img/dictionary.png"
@@ -173,7 +165,6 @@
             </div>
           </div>
       </div>
-    </div>
     <div class="my-email">
       <p>dorosh131nataliya@gmail.com</p>
     </div>

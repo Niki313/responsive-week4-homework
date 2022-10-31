@@ -9,67 +9,6 @@
 }
 
 
-
-/* @media (min-width: 768px) { 
-  .second-wrapper {
-    margin: 0 20px;
-  }
-  .third-wrapper {
-    margin: 0px 30px 50px 30px;
-  }
-  .link-menu-block {
-    margin-left: 200px;
-  }
-  .link-menu {
-    margin: 0 10px;
-  }
-  .greeting-text {
-    margin-top: 100px;
-  }
-
-  .email-link a {
-    font-size: 16px;
-  }
-
-
-  .block-work-inquiry {
-    padding: 20px 80px;
-  }
-  
-  .work-inquiry {
-    font-size: 37px;
-  }
-  .work-inquiry-content {
-    font-size: 16px;
-  }
-
-}*/
-/* for sm-screen*/
-/*
-@media (min-width: 576px) {
-  .second-wrapper {
-    margin-bottom: 50px;
-  }
-  .logo {
-    align-items: center;
-  }
-  .link-menu-block {
-    text-align: center;
-  }
-  .link-menu {
-    margin: 0 10px;
-  }
-  .greeting-text {
-    margin-top: 100px;
-  }
-
-  .email-link a {
-    font-size: 16px;
-  }
-}
-
-*/
-
 /* for a big screen */
 
 body {
@@ -176,11 +115,13 @@ p {
 .text-second-part {
   text-align: center;
   margin-bottom: 82px;
+  font-family: var(--fontfamily-first);
+  font-size: 18px;
 }
 .headerDictionary,
 .headerWeather,
 .headerYogurt,
-.about-greeting,
+.about-greeting, .work-greeting,
 .get-touch {
   font-family: var(--fontfamily-second);
   font-size: 64px;
@@ -377,71 +318,209 @@ p {
 }
 
 
+
 /* from 767px screen and more*/
 @media (max-width:767px){
   body{
     text-align: center;
   }
-  .second-wrapper {
+  .wrapper {
+    padding-bottom: 90px;
+    height: auto;
     margin-bottom: 50px;
   }
-  /* .logo {
-    align-items: center;
-  } */
+.about-wrapper {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+.header{
+  text-align: center;
+  margin-bottom: 50px;
+}
   .link-menu-block {
+    margin-top: 20px;
     text-align: center;
   }
   .link-menu {
-    margin: 0 10px;
+    margin: 0 5px;
+    font-size: 12px;
+    line-height: 14px;
   }
   .greeting-text {
-    margin-top: 100px;
+    margin-top: 50px;
   }
-
   .email-link a {
     font-size: 16px;
   }
-}
-/* for  768px-991px screen*/
-@media (min-width: 768px) and (max-width: 991px){
+  .greeting {
+    font-size: 27px;
+    line-height: 33px;
+  }
+  .work-greeting {
+    margin-bottom: 30px;
+  }
+  .name {
+    font-size: 54px;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+  #text-about {
+    font-size: 18px;
+    line-height: 24px;
+  }
   .second-wrapper {
-    margin-bottom: 50px;
-  }
-  .logo {
-    align-items: center;
-  }
-  .link-menu-block {
+    margin: 0 15px 100px 15px;
     text-align: center;
   }
-  .link-menu {
-    margin: 0 10px;
-  }
-  .greeting-text {
-    margin-top: 100px;
-  }
-
-  .email-link a {
-    font-size: 16px;
-  }
-
+.text-second-part{
+margin-bottom: 0;
+}
+#about-text{
+  width: 100%;
+}
+#about-second-wrapper .row{
+  margin: 0 auto;
+}
+#about-text .about-developer {
+  text-align: center;
+}
+#about-text .about-content-developer{
+  margin-bottom: 50px;
 }
 
-/* for  992px-1199px screen*/
-@media (min-width: 992px) and (max-width: 1199px){
-  .second-wrapper {
-    margin: 0 20px;
+#work-second-wrapper{
+  margin-bottom: 30px;
+}
+  .button-contact-me {
+    padding: 14px 35px;
+  }
+  .button-contact-me a {
+    font-size: 14px;
+  }
+  .text-second-part{
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+#homepage-row-dictionary .headerDictionary,
+#homepage-row-weather .headerWeather,
+#homepage-row-yogurt .headerYogurt {
+  margin-top: 30px;
+}
+.textYogurt, .textWeather, .textDictionary{
+  margin: 0 auto;
+  width: 400px;
+}
+  .headerDictionary,
+  .headerWeather,
+  .about-greeting,
+  .headerYogurt,
+  .get-touch, .work-greeting  {
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+  }
+  .get-touch{
+    margin-bottom: 50px;
+  }
+  .work-greeting  {
+margin-bottom: 50px;
+  }
+.my-work .screenshotYogurt, 
+.my-work .screenshotWeather,
+.my-work .screenshotDictionary,
+.my-work .screenshotTranslation
+{
+  width: 100%;
+}
+#last-row {
+  margin-bottom: 50px;
+}
+  .headerDictionary,
+  .headerWeather,
+  .headerYogurt {
+    margin-bottom: 30px;
+  }
+
+  .row{
+margin-bottom: 50px;
+
+  }
+  .content-yogurt,
+  .content-dictionary,
+  .content-weather,
+  .about-developer,
+  .about-content-developer {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+.contact-link {
+    padding: 12px 15px;
+    font-size: 12px;
+  }
+  .block-work-inquiry {
+    padding: 10px 15px;
+    height: 200px;
+  }
+.work-inquiry {
+    font-size: 36px;
+    line-height: 42px;
+  }
+.work-inquiry-content {
+    font-size: 16px;
+    line-height: 20px;
   }
   .third-wrapper {
-    margin: 0px 30px 50px 30px;
+    margin: 0 20px 50px 20px;
   }
+.email-link-block{
+  padding-top: 70px;
+}
+.email-link{
+  padding: 12px 15px;
+}  
+.email-link .talk-here{
+    font-size: 12px;
+  }
+.my-email {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+.social-media-icons {
+    margin-bottom: 50px;
+  }
+}
+
+
+/* for  768px-991px screen*/
+@media (min-width: 768px) and (max-width: 991px){
+  .wrapper {
+    padding-bottom: 90px;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .header{
+    margin-bottom: 30px;
+  }
+  
+  .about-wrapper {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+  }
+
   .link-menu-block {
-    margin-left: 200px;
+    display: inline;
+    margin-left:  250px ;
+    text-align: right;
   }
+ 
   .link-menu {
-    margin: 0 10px;
+    margin: 0 5px;
+    font-size: 14px;
+    line-height: 16px;
   }
   .greeting-text {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .email-link a {
@@ -449,16 +528,190 @@ p {
   }
 
 
+  .greeting {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .work-greeting {
+    margin-bottom: 30px;}
+
+  
+  .name {
+    font-size: 64px;
+    line-height: 88px;
+    margin-bottom: 20px;
+  }
+  #text-about {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .second-wrapper {
+    margin: 0 15px 100px 15px;
+    text-align: center;
+  }
+
+
+.text-second-part{
+margin-bottom: 0;
+
+
+}
+
+#about-text{
+  width: 100%;
+}
+#about-second-wrapper .row{
+  margin: 0 auto;
+}
+
+#about-text .about-developer {
+  text-align: center;
+}
+
+#about-text .about-content-developer{
+  margin-bottom: 50px;
+}
+
+#work-second-wrapper{
+  margin-bottom: 30px;
+}
+
+  .button-contact-me {
+    padding: 14px 35px;
+  }
+  .button-contact-me a {
+    font-size: 16px;
+  }
+ 
+  .text-second-part{
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+
+
+#homepage-row-dictionary .headerDictionary,
+#homepage-row-weather .headerWeather,
+#homepage-row-yogurt .headerYogurt {
+  margin-top: 30px;
+}
+
+
+.textYogurt, .textWeather, .textDictionary{
+  margin: 0 auto;
+  width: 400px;
+}
+
+  .headerDictionary,
+  .headerWeather,
+  .about-greeting,
+  .headerYogurt,
+  .get-touch, .work-greeting  {
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+  }
+
+  .get-touch{
+    margin-bottom: 50px;
+  }
+
+  .work-greeting  {
+margin-bottom: 50px;
+  }
+.my-work .screenshotYogurt, 
+.my-work .screenshotWeather,
+.my-work .screenshotDictionary,
+.my-work .screenshotTranslation
+{
+  width: 100%;
+}
+
+#last-row {
+  margin-bottom: 50px;
+}
+
+  .headerDictionary,
+  .headerWeather,
+  .headerYogurt {
+    margin-bottom: 30px;
+  }
+
+  .row{
+margin-bottom: 50px;
+
+  }
+  .content-yogurt,
+  .content-dictionary,
+  .content-weather,
+  .about-developer,
+  .about-content-developer {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+    .contact-link {
+    padding: 14px 35px;
+    font-size: 16px;
+  }
+  
   .block-work-inquiry {
-    padding: 20px 80px;
+    padding: 10px 15px;
+    height: 200px;
   }
   
   .work-inquiry {
-    font-size: 37px;
+    font-size: 36px;
+    line-height: 42px;
   }
+  
   .work-inquiry-content {
     font-size: 16px;
+    line-height: 20px;
+  }
+  .third-wrapper {
+    margin: 0 40px 50px 40px;
+  }
+.email-link-block{
+  padding-top: 70px;
+}
+.email-link{
+  padding: 14px 35px;
+}  
+.email-link .talk-here{
+    font-size: 16px;
+  }
+  .my-email {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 30px;
   }
 
+
+  .social-media-icons {
+    margin-bottom: 50px;
+  }
+  
+
+}
+
+
+/* for  992px-1199px screen*/
+@media (min-width: 992px) and (max-width: 1199px){
+  .about-wrapper{
+margin-bottom: 30px;
+
+  }
+
+  .my-work{
+    margin-top: 50px;
+  }
+
+  .get-touch{
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
 }
 
